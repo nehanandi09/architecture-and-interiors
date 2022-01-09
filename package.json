@@ -1,0 +1,15 @@
+{
+  "name": "netninjatutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "watch-css": "tailwindcss -i src/styles.css -o public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.12"
+  }
+}
